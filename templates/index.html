@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Healthcare Boolean Query Generator</title>
+</head>
+<body>
+    <h1>Healthcare Boolean Query Generator</h1>
+    <form method="POST">
+        <label for="query">Enter your search query:</label>
+        <input type="text" id="query" name="query" required>
+        <button type="submit">Search</button>
+    </form>
+    
+    <h2>Results:</h2>
+    <ol>
+        {% for result in results %}
+            <li>
+                {{ result["study"] }}
+                <form action="/feedback" method="POST" style="display:inline;">
+                    <input type="hidden" name="study_id" value="{{ result['id'] }}">
+                    <button type="submit" name="feedback" value="relevant">Relevant</button>
+                    <button type="submit" name="feedback" value="not_relevant">Not Relevant</button>
+                </form>
+            </li>
+        {% else %}
+            <p>No results found.</p>
+        {% endfor %}
+    </ol>
+</body>
+</html>

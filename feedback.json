@@ -1,0 +1,18 @@
+[
+    {
+        "study_id": "1",
+        "feedback": "relevant"
+    },
+    {
+        "study_id": "2",
+        "feedback": "not_relevant"
+    },
+    {
+        "study_id": "1",
+        "feedback": "relevant"
+    },
+    {
+        "study_id": "8",
+        "feedback": "not_relevant"
+    }
+]

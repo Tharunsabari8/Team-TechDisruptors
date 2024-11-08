@@ -1,0 +1,11 @@
+[
+    {"id": 1, "study": "Study on diabetes complications", "terms": ["diabetes", "complications", "type 1"]},
+    {"id": 2, "study": "Drug interaction between Drug A and Drug B", "terms": ["drug interaction", "adverse events", "Drug A", "Drug B"]},
+    {"id": 3, "study": "Diagnostic data on cardiovascular disease", "terms": ["diagnostic", "cardiovascular disease", "symptoms"]},
+    {"id": 4, "study": "Study on lung cancer treatment efficacy", "terms": ["lung cancer", "treatment", "efficacy"]},
+    {"id": 5, "study": "Research on hypertension and cardiovascular risk", "terms": ["hypertension", "cardiovascular risk", "study"]},
+    {"id": 6, "study": "Effects of Drug C on blood pressure", "terms": ["Drug C", "blood pressure", "adverse effects"]},
+    {"id": 7, "study": "Association between smoking and lung disease", "terms": ["smoking", "lung disease", "risk factors"]},
+    {"id": 8, "study": "Comparative study on diabetes type 1 and type 2 treatments", "terms": ["diabetes", "type 1", "type 2", "treatments"]},
+    {"id": 9, "study": "Symptom management for patients with chronic heart disease", "terms": ["chronic heart disease", "symptom management"]}
+]
